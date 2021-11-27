@@ -57,7 +57,7 @@
 
 .profile-text {
     position: absolute;
-    right: -60px;
+    right: -53px;
     top: 60px;
     visibility: hidden;
     background-color: rgb(97, 97, 69);
@@ -72,7 +72,7 @@
 .feed-text {
     position: absolute;
     right: -90px;
-    top: 105px;
+    top: 98px;
     visibility: hidden;
     background-color: rgb(97, 97, 69);
     padding: 5px;
@@ -87,7 +87,7 @@
 .setting-text {
     position: absolute;
     right: -65px;
-    top: 198px;
+    top: 194px;
     visibility: hidden;
     background-color: rgb(97, 97, 69);
     padding: 5px;
@@ -103,7 +103,7 @@
 .signout-text  {
     position: absolute;
     right: -78px;
-    top: 245px;
+    top: 241px;
     visibility: hidden;
     background-color: rgb(97, 97, 69);
     padding: 5px;
