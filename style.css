@@ -1,0 +1,140 @@
+#navbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+#container {
+    background-color: #000333;
+    text-align: center;
+    text-align: center;
+    height: 280px;
+    width: 50px;
+    position: absolute;
+    top: 150px;
+}
+
+.home, #profile, #feed, #setting, #signout {
+    margin: 10px;
+    background-color:#000333 ;
+    border: none;
+    font-size: 20px;
+    transition: background-color 0.5s;
+    border-radius: 5px;
+   
+   
+    
+}
+.home:hover, #profile:hover, #feed:hover, #setting:hover, #signout:hover {
+    background-color: #42478b;
+}
+
+.fa {
+    border: none;
+    color: white;
+    background-color:transparent;
+    
+}
+
+
+.home-text {
+    position: absolute;
+    right: -55px;
+    top: 10px;
+    background-color: rgb(97, 97, 69);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    transition: opacity 1.5s;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    
+    
+}
+
+.profile-text {
+    position: absolute;
+    right: -60px;
+    top: 60px;
+    visibility: hidden;
+    background-color: rgb(97, 97, 69);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    transition: opacity 1.5s;
+    opacity: 0;
+    
+}
+.feed-text {
+    position: absolute;
+    right: -90px;
+    top: 105px;
+    visibility: hidden;
+    background-color: rgb(97, 97, 69);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    transition: opacity 1.5s;
+    opacity: 0;
+    
+}
+
+.setting-text {
+    position: absolute;
+    right: -65px;
+    top: 198px;
+    visibility: hidden;
+    background-color: rgb(97, 97, 69);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    transition: opacity 1.5s;
+    opacity: 0;
+    
+
+}
+
+.signout-text  {
+    position: absolute;
+    right: -78px;
+    top: 245px;
+    visibility: hidden;
+    background-color: rgb(97, 97, 69);
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    transition: opacity 1.5s;
+    opacity: 0;
+    
+}
+#homediv:hover .home-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+#profilediv:hover .profile-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+#feeddiv:hover .feed-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+#settingdiv:hover .setting-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+#signoutdiv:hover .signout-text {
+    visibility: visible;
+    opacity: 1;
+}
